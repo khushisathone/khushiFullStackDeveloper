@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+</head>
+<style>
+    .lable-style {
+        font-size: 32px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: black;
+
+    }
+
+    .input-field {
+        width: 300px;
+        height: 44px;
+        background-color: aqua;
+    }
+
+    .input_box {
+        width: 22px;
+        height: 22px;
+        margin: 10px;
+        background-color: blue;
+    }
+</style>
+
+
+<body>
+    <!--form-->
+    <form>
+
+        <!--Personal Details-->
+        <Fieldset>
+            <legend>Personal Details</legend>
+
+            <label class="lable-style"> First name </label>
+            <input type="text" class="input-field" />
+            <br>
+            <label class="lable-style"> Last name </label>
+            <input type="text" class="input-field" />
+            <br>
+            <label class="lable-style"> DOB </label>
+            <input type="date" class="input-field" />
+            <br>
+            <label class="lable-style"> Contact Number </label>
+            <input type="number" class="input-field" />
+            <br>
+            <br>
+        </Fieldset>
+        <br>
+        <Fieldset>
+            <!--Profession-->
+            <legend>Profession</legend>
+
+            <label class="lable-style"> Web Developement</label>
+            <input type="text" class="input-field" />
+            <br>
+
+            <label class="lable-style">Mobile Developement</label>
+            <input type="text" class="input-field" />
+            <br>
+            <label class="lable-style"> Backened Developement</label>
+            <input type="text" class="input-field" />
+            <br>
+            <label class="lable-style">Database Developement </label>
+            <input type="text" class="input-field" />
+            <br>
+            <br>
+
+        </fieldset>
+        <br>
+        <fieldset>
+            <!--Enroll for Course-->
+            <legend>Enroll for Course</legend>
+            <label class="lable-style">Class Time</label>
+            <input type="time" class="input-field" />
+
+            <br>
+            <label for="batch" class="lable-style">pick a batch</label>
+            <select id="batch" class="input-field">
+                <option>Professional</option>
+                <option>Visionary</option>
+                <option>junior</option>
+            </select>
+            <!--checkbox-->
+            <br>
+            <label class="lable-style">Lap-top?</label>
+            <br>
+            <label class="lable-style">windows</label>
+            <input type="checkbox" class="input_box" value="window" />
+            <label class="lable-style">Mac</label>
+            <input type="checkbox" class="input_box" value="Mac" />
+            <label class="lable-style">Linux</label>
+            <input type="checkbox" class="input_box" value="Linux" />
+            <!--radio-->
+            <br>
+            <label class="lable-style">EDUCATION</label>
+            <label class="lable-style">10th</label>
+            <input type="radio" class="input_box" value="10th" name="two" />
+            <label class="lable-style">12th</label>
+            <input type="radio" class="input_box" value="12th" name="two" />
+
+            <br>
+            <br>
+
+        </fieldset>
+        <br>
+        <fieldset>
+            <!--Signup-->
+            <legend>Signup</legend>
+            <label class="lable-style">Email</label>
+            <input type="email" class="input-field" />
+            <br>
+            <label class="lable-style">Password</label>
+            <input type="password" class="input-field" />
+            <br>
+            <br>
+            <label class="lable-style">Class Time</label>
+            <input type="time" class="input-field" />
+        </fieldset>
+
+        </fieldset>
+    </form>
+
+
+</body>
+
+</html>
